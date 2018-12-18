@@ -1,0 +1,10 @@
+
+body{
+	display: table;
+}
+div{
+	width:30%;
+	background:#33A323;
+	display: table-cell;
+
+}

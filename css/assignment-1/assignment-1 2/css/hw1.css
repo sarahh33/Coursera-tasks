@@ -1,0 +1,110 @@
+
+header{
+		
+
+		background-color: #b2b2b2;
+		background-image: url(../images/flywheel.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-family:Times;
+		padding: 10px;
+		text-align: center;
+}
+
+h1{
+	color:#ffffff;
+	text-transform: uppercase;
+	font-size: 125%;
+
+}
+nav a{
+	text-decoration: none;
+	background-color: #c5c5c5;
+	display: inline-block;
+	border-radius: 10px;
+	width: 150px;
+	color:#000000;
+	margin: 20px;
+	padding: 15px;
+	opacity: 0.6;
+}
+a.active{background-color:#ffffff;}
+
+section{
+
+	font-family:Times;
+	display: inline-block;
+	
+}
+.left{
+	background-color: #777613;
+	width: 20%;
+	height: 600px;
+float:left;
+
+}
+
+img{
+text-align: center;
+	width: 80%;
+	margin:15px auto;
+	border: 2px solid #000000;
+	display:block;
+	position: center;
+}
+
+.right{
+width:70%;
+
+float: left;
+margin: 10px;
+}
+h2{
+
+	text-transform: uppercase;
+}
+
+table{
+table-layout: none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	list-style: none;
+	font-family: Arial;
+	font-size: 12px;
+	background:#e2f5d7 ;
+	color: #848484;
+	width:100%;
+	text-align: center;
+	border-collapse:collapse;
+}
+th{
+	padding:15px;
+
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-right:2px solid white;
+	border-bottom: 2px solid #aae06b;
+
+}
+
+.top{
+
+	background: -webkit-linear-gradient(#8faa65, #909b56); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(#8faa65, #909b56); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(#8faa65,#909b56); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#8faa65, #909b56); /* 标准的语法 */
+	color: white;
+
+}
+td{
+	border:2px solid white;
+	padding:15px;
+
+}
+table tr th:first-child{
+	text-align: left;
+}
+table tr td:first-child{
+	text-align: left;
+
+}

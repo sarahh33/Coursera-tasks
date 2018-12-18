@@ -1,0 +1,33 @@
+div{
+
+	box-sizing: border-box;
+	border: 1px solid #0000ff;
+	width: 100px;
+	height: 100px;
+	margin: 2%;
+	padding: 2%
+	display:inline-block;
+	transition:2s ease;
+
+}
+
+div:hover{
+	background-color: #23ab46;
+}
+
+div:focus{
+	background: #232323;
+}
+
+.animate{
+	background-color: #23abe3;
+	-webkit-transition:-webkit-transform 1s,opacity:0.4;
+	transition-property: width,height,transform,background-color,color,opacity;
+	transform-duration:1s,1s,1s,1s,1s,1s;
+}.animate:hover{
+	-webkit-transform:rotate(360deg);
+	transform: rotate(360deg);
+	opacity: 1;
+	width: 50px;
+	height: 50px;
+}
